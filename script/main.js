@@ -35,6 +35,7 @@ const animationTimeline = () => {
     .join("</span><span>")}</span`;
 
   hbd.innerHTML = `<span>${hbd.innerHTML
+    .replace(" ", "&nbsp;")
     .split("")
     .join("</span><span>")}</span`;
 
